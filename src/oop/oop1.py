@@ -17,3 +17,24 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+#Main class
+class Vehicle:
+    def __init__(self, **kwargs):
+        pass
+
+#Flight Vehicle 
+class FlightVehicle(Vehicle):
+    pass
+class Airplane(FlightVehicle):
+    pass
+class Starship(FlightVehicle):
+    pass
+
+#Ground Vehicle
+class GroundVehicle(Vehicle):
+    pass
+class Car(GroundVehicle):
+    pass
+class Motorcycle(GroundVehicle):
+    pass
